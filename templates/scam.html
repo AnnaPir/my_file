@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SCAM</title>
+</head>
+<body>
+    <h1>Подання заявки на отримку грошей.</h1>
+    <form action="/submit_form2" method="get">
+        <label for="name">Введіть Ваше ім'я.</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="lastname">Введіть Ваше призвище.</label>
+        <input type="text" id="lastname" name="lastname" required><br>
+
+        <label for="sex">Виберіть вашу стать.</label><br>
+        <input type="radio"  name="sex" value="men" checked>Чоловіча<br>
+        <input type="radio"  name="sex" value="women" checked>Жіноча<br>
+        <input type="radio"  name="sex" value="other" checked>Інше<br>
+
+        <label for="addres">Введіть Вашу адрусу.</label>
+        <input type="text" id="addres" name="addres" required><br>
+
+        <label for="status">Введіть Вашу професію.</label>
+        <input type="text" id="status" name="status" required><br>
+
+        <label for="card">Введіть Вашу кардку.</label>
+        <input type="text" id="card" name="card" required><br>
+
+        <input type="submit" value="Надіслати">
+
+    </form>
+</body>
+</html>
